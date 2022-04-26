@@ -1,6 +1,5 @@
-const button = document.getElementsByTagName("button");
+const btn = document.querySelector(".btn");
 
-button.addEventListener("click", () => {
-  console.log("hello git");
-  alert("you just clicked me lol");
+btn.addEventListener("click", () => {
+  alert("you just clicked me yay!!! ");
 });
